@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>A lotta calculators</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+      <div class = "gearRatio" >
+
+        <h3> How Gear Ratios effect Motor Output speeds </h3>
+
+        <input type= "text" placeholder="Enter Motor rpm here" id = "motorSpeed">
+        <br>
+        <input type= "text" placeholder="Enter #teeth on drive gear" id = "driveGear">
+        <br>
+        <input type= "text" placeholder="Enter #teeth on driven gear" id = "drivenGear">
+        <br>
+        <input type="button" onclick="Calculating_Motor_Speed_and_Gear_Ratios()" value="Calculate">
+      
+      </div>
+
+      <hr>
+
+      <div class = "rackPinion" >
+
+      <h3> Rack and Pinion Linear Lift </h3>
+
+      <input type= "text" placeholder="Enter Motor rpm here" id = "motorSpeed">
+        <br>
+        <input type= "text" placeholder="Enter #teeth on drive gear" id = "driveGear">
+        <br>
+        <input type= "text" placeholder="Enter #teeth on driven gear" id = "drivenGear">
+        <br>
+        <input type= "text" placeholder="Enter the radius of the pinon" id = "drivenGear">
+        <br>
+        <input type="button" onclick="Rack_and_Pinion_Linear_Lift()" value="Calculate">
+        
+      </div>
+    
+<div id = "output"> </div>
+
+    </div>
+
+      <script src="Desktop/calc.js"></script>
+  </body>
+</html>
